@@ -25,11 +25,11 @@ My pipeline consisted of 7 steps.
 * merge the original and line picture
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function.
-First I sorted the linesegments by their signature (positiv / negativ) slope. (segments with slope < 0.2 and slope > -0.2 are ignored)
+First I sorted the linesegments by their slope signature (positiv / negativ - segments with slope < 0.2 and slope > -0.2 are ignored)
 Than I calculated the average slope and the average intercept of the two sets of linesegments.
 Now it is possiple to calculate the start and end points of the two extrapolated lines.
 y1 is the bottom of the image.
-y2 is the smaller y coordinate of the mask. 
+y2 is the smallest y coordinate of the mask. 
 
 Example result: 
 
@@ -67,7 +67,7 @@ First Result | End Result
 
 ###2. Identify potential shortcomings with your current pipeline
 
-* The pipline produces a bit nervous lines. The reason is the way of creating the two lines. All segments do have the same influence. Long segments the same than short segments.
+* The pipline produces a bit nervous lines (see video). One reason is the way of creating these two lines. All segments do have the same influence. Long segments the same than short segments.
 * The result of the optional film ist not verry good. There are to many "wrong" results after the houghtransformation.
 * The mask is not optimal. There are many short inexact segments from the top of the image in the result.  
 
@@ -77,6 +77,6 @@ First Result | End Result
 * The filtering should be improved. Segments with too big or to small slope should be ignored. 
 * Setup a better mask.
 * Use a bigger min_line_len for the hough transformation
-* Split the picture based on the colorchanel. So it easyer to find edges in a color contrast system or ignore edges. 
+* Split the picture based on the colorchanel. So it is possible to find edges in a color contrast system or ignore them. 
  
 
