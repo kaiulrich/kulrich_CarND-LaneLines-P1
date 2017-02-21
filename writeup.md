@@ -28,7 +28,7 @@ My pipeline consisted of 7 steps.
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function.
 First I sorted the linesegments by their signature (positiv / negativ) slope. (segments with slope < 0.2 and slope > -0.2 are ignored)
 Than I calculated the average slope and the average intercept of the two sets of linesegments.
-So now it is possiple to calculate the start and end points of the two extrapolated lines.
+Now it is possiple to calculate the start and end points of the two extrapolated lines.
 y1 is the bottom of the image.
 y2 is the smaller y coordinate of the mask. 
 
@@ -43,8 +43,8 @@ Example result:
 
 ###2. Identify potential shortcomings with your current pipeline
 
-* The pipline produces a bit nervous. This the reason is the way of creating the two lines. All segments do have the same influence. Long segments the same than short segments.
-* The result of the optional film ist not verry good. Ther are to many "wrong" results after the houghtransformation.
+* The pipline produces a bit nervous lines. The reason is the way of creating the two lines. All segments do have the same influence. Long segments the same than short segments.
+* The result of the optional film ist not verry good. There are to many "wrong" results after the houghtransformation.
 * The mask is not optimal so the are many short inexact segments from the top of the image in the result.  
 
 
