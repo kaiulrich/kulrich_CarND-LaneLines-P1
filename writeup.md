@@ -18,7 +18,7 @@ My pipeline consisted of 7 steps.
  
 * Converted the images to grayscale. 
 * Gaussian smoothing to reduce image noise and reduce detail. I used a a kernel size of 5. has enough less blurring and keeps enough struktur.
-* Process of Canny edge detection. 
+* Process of Canny edge detection. I used a low_threshold = 50 and high_threshold = 150. Seams to be ok. 
 * Masking the Region of Interest.
 * Extract linesegments via hough transformation
 * draw the lines
@@ -72,10 +72,12 @@ First Result | End Result
 * The result of the optional film ist not verry good. There are to many "wrong" results after the houghtransformation.
 * The mask is not optimal. There are many short inexact segments from the top of the image in the result.  
 
-
 ###3. Suggest possible improvements to your pipeline
 
 * The calculations to create the two lines should weight the segments. Long segments should have a stronger influance. A linear regression on the endpoints of the segments should have a better result. 
-* The filtering should be improved. Segments whitch have a too big or to small slope should be ignored. 
+* The filtering should be improved. Segments with too big or to small slope should be ignored. 
 * Setup a better mask.
 * Use a bigger min_line_len for the hough transformation
+* Split the picture based on the colorchanel. So it easyer to find edges in a color contrast system or ignore edges. 
+ 
+
