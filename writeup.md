@@ -45,7 +45,7 @@ Example result:
 
 * The pipline produces a bit nervous lines. The reason is the way of creating the two lines. All segments do have the same influence. Long segments the same than short segments.
 * The result of the optional film ist not verry good. There are to many "wrong" results after the houghtransformation.
-* The mask is not optimal so the are many short inexact segments from the top of the image in the result.  
+* The mask is not optimal. There are many short inexact segments from the top of the image in the result.  
 
 
 ###3. Suggest possible improvements to your pipeline
