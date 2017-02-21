@@ -43,7 +43,7 @@ Example result:
 [image4]: ./resultimages/solidWhiteRight.jpg_result.png "Endresult SolidWhiteCurve"
 
 [image5]: ./resultimages/solidYellowCurve.jpg_first_result.png "Firstresult SolidYellowCurve"
-[image6]: ./resultimages/ssolidYellowCurve.jpg_result.png "Endresult SolidYellowCurve"
+[image6]: ./resultimages/solidYellowCurve.jpg_result.png "Endresult SolidYellowCurve"
 
 [image7]: ./resultimages/solidYellowCurve2.jpg_first_result.png "Firstresult SolidYellowCurve2"
 [image8]: ./resultimages/solidYellowCurve2.jpg_result.png "Endresult SolidYellowCurve2"
@@ -56,7 +56,7 @@ Example result:
 
 (more pictures in the resultimages floder)
 
-First Result | End Header
+First Result | End Result
 ------------ | -------------
 ![alt text][image1] | ![alt text][image2]
 ![alt text][image3] | ![alt text][image4]
