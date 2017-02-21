@@ -14,7 +14,7 @@ The goals / steps of this project are the following:
 
 ###1. Describe your pipeline.
 
-My pipeline consisted of 5 steps.
+My pipeline consisted of 7 steps.
  
 * Converted the images to grayscale. 
 * Gaussian smoothing to reduce image noise and reduce detail. I used a a kernel size of 5. has enough less blurring and keeps enough struktur.
@@ -39,16 +39,18 @@ Example result:
 [image1]: ./resultimages/solidWhiteCurve.jpg_first_result.png "first SolidWhiteCurve"
 [image1]: ./resultimages/solidWhiteCurve.jpg_result.png "Endresult SolidWhiteCurve"
 
-ther are more pictures in the resultimages floder
+(more pictures in the resultimages floder)
 
 ###2. Identify potential shortcomings with your current pipeline
 
-a. The pipline produces a bit nervous. This the reason is the way of creating the two lines. All segments do have the same influence. Long segments the same than short segments.
-b. The result of the optional film ist not verry good. Ther are to many "wrong" results after the houghtransformation. 
+* The pipline produces a bit nervous. This the reason is the way of creating the two lines. All segments do have the same influence. Long segments the same than short segments.
+* The result of the optional film ist not verry good. Ther are to many "wrong" results after the houghtransformation.
+* The mask is not optimal so the are many short inexact segments from the top of the image in the result.  
 
 
 ###3. Suggest possible improvements to your pipeline
 
-to a. The calculations to create the two lines should weight the segments. Long segments should have a stronger influance. A linear regression on the endpoints of the segments should have a better result. 
-to b. The filtering should be improved. Segments whitch have a too big or to small slope should be ignored. 
-   
+* The calculations to create the two lines should weight the segments. Long segments should have a stronger influance. A linear regression on the endpoints of the segments should have a better result. 
+* The filtering should be improved. Segments whitch have a too big or to small slope should be ignored. 
+* Setup a better mask.
+* Use a bigger min_line_len for the hough transformation
