@@ -46,13 +46,13 @@ Example result:
 [image6]: ./resultimages/ssolidYellowCurve.jpg_result.png "Endresult SolidYellowCurve"
 
 [image7]: ./resultimages/solidYellowCurve2.jpg_first_result.png "Firstresult SolidYellowCurve2"
-[image8]: ./resultimages/solidYellowCurve2.jpg_first_result.png "Endresult SolidYellowCurve2"
+[image8]: ./resultimages/solidYellowCurve2.jpg_result.png "Endresult SolidYellowCurve2"
 
 [image9]: ./resultimages/solidYellowLeft.jpg_first_result.png "Firstresult SolidYellowLeft"
 [image10]: ./resultimages/solidYellowLeft.jpg_result.png "Endresult SolidYellowLeft"
 
 [image11]: ./resultimages/whiteCarLaneSwitch.jpg_first_result.png "Firstresult WhiteCarLaneSwitch"
-[image12]: ./resultimages/whiteCarLaneSwitch.jpg_first_result.png "Endresult WhiteCarLaneSwitch"
+[image12]: ./resultimages/whiteCarLaneSwitch.jpg_result.png "Endresult WhiteCarLaneSwitch"
 
 (more pictures in the resultimages floder)
 
