@@ -37,9 +37,12 @@ Example result:
 [//]: # (Image References)
 
 [image1]: ./resultimages/solidWhiteCurve.jpg_first_result.png "first SolidWhiteCurve"
-[image1]: ./resultimages/solidWhiteCurve.jpg_result.png "Endresult SolidWhiteCurve"
+[image2]: ./resultimages/solidWhiteCurve.jpg_result.png "Endresult SolidWhiteCurve"
 
 (more pictures in the resultimages floder)
+
+![alt text][image1]
+![alt text][image2]
 
 ###2. Identify potential shortcomings with your current pipeline
 
