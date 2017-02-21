@@ -36,14 +36,35 @@ Example result:
 
 [//]: # (Image References)
 
-[image1]: ./resultimages/solidWhiteCurve.jpg_first_result.png "first SolidWhiteCurve"
+[image1]: ./resultimages/solidWhiteCurve.jpg_first_result.png "Firstresult SolidWhiteCurve"
 [image2]: ./resultimages/solidWhiteCurve.jpg_result.png "Endresult SolidWhiteCurve"
+
+[image3]: ./resultimages/solidWhiteRight.jpg_first_result.png "Firstresult SolidWhiteRight"
+[image4]: ./resultimages/solidWhiteRight.jpg_result.png "Endresult SolidWhiteCurve"
+
+[image5]: ./resultimages/solidYellowCurve.jpg_first_result.png "Firstresult SolidYellowCurve"
+[image6]: ./resultimages/ssolidYellowCurve.jpg_result.png "Endresult SolidYellowCurve"
+
+[image7]: ./resultimages/solidYellowCurve2.jpg_first_result.png "Firstresult SolidYellowCurve2"
+[image8]: ./resultimages/solidYellowCurve2.jpg_first_result.png "Endresult SolidYellowCurve2"
+
+[image9]: ./resultimages/solidYellowLeft.jpg_first_result.png "Firstresult SolidYellowLeft"
+[image10]: ./resultimages/solidYellowLeft.jpg_result.png "Endresult SolidYellowLeft"
+
+[image11]: ./resultimages/whiteCarLaneSwitch.jpg_first_result.png "Firstresult WhiteCarLaneSwitch"
+[image12]: ./resultimages/whiteCarLaneSwitch.jpg_first_result.png "Endresult WhiteCarLaneSwitch"
 
 (more pictures in the resultimages floder)
 
-First Header | Second Header
+First Result | End Header
 ------------ | -------------
 ![alt text][image1] | ![alt text][image2]
+![alt text][image3] | ![alt text][image4]
+![alt text][image5] | ![alt text][image6]
+![alt text][image7] | ![alt text][image8]
+![alt text][image9] | ![alt text][image10]
+![alt text][image11] | ![alt text][image12]
+
 
 ###2. Identify potential shortcomings with your current pipeline
 
