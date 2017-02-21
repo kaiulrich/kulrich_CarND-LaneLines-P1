@@ -41,8 +41,9 @@ Example result:
 
 (more pictures in the resultimages floder)
 
-![alt text][image1]
-![alt text][image2]
+First Header | Second Header
+------------ | -------------
+![alt text][image1] | ![alt text][image2]
 
 ###2. Identify potential shortcomings with your current pipeline
 
