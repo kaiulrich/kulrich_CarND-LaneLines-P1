@@ -18,12 +18,11 @@ My pipeline consisted of 7 steps.
  
 * Converted the images to grayscale. 
 * Gaussian smoothing to reduce image noise and reduce detail. I used a a kernel size of 5. has enough less blurring and keeps enough struktur.
-* Process of Canny edge detection. I used a low_threshold = 50 and high_threshold = 150. Seams to be ok. 
-* Masking the Region of Interest.
-* Extract linesegments via hough transformation
-* draw the lines
+* Process of Canny edge detection. I used a low_threshold = 50 and high_threshold = 150.  
+* Masking the Region of Interest. It is an rhomb with (0, max_y),(460, 325), (500, 325), (max_x, max_y)
+* Extract linesegments via hough transformation (rho = 1, theta = np.pi/180, threshold = 30, min_line_length = 1, max_line_gap = 2)
+* filter and split segments to 2 lists, extrapolate 2 lines from the segments and draw this two lines
 * merge the original and line picture
-
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function.
 First I sorted the linesegments by their signature (positiv / negativ) slope. (segments with slope < 0.2 and slope > -0.2 are ignored)
