@@ -1,4 +1,4 @@
-#**Finding Lane Lines on the Road** 
+#** Finding Lane Lines on the Road** 
 
 ---
 
@@ -12,7 +12,7 @@ The goals / steps of this project are the following:
 
 ### Reflection
 
-###1. Describe your pipeline.
+### 1. Describe your pipeline.
 
 My pipeline consisted of 7 steps.
  
@@ -65,13 +65,13 @@ First Result | End Result
 ![alt text][image11] | ![alt text][image12]
 
 
-###2. Identify potential shortcomings with your current pipeline
+### 2. Identify potential shortcomings with your current pipeline
 
 * The pipline produces a bit nervous lines (see video). One reason is the way of creating these two lines. All segments do have the same influence. Long segments the same than short segments.
 * The result of the optional film ist not verry good. There are to many "wrong" results after the houghtransformation.
 * The mask is not optimal. There are many short inexact segments from the top of the image in the result.  
 
-###3. Suggest possible improvements to your pipeline
+### 3. Suggest possible improvements to your pipeline
 
 * The calculations to create the two lines should weight the segments. Long segments should have a stronger influance. A linear regression on the endpoints of the segments should have a better result. 
 * The filtering should be improved. Segments with too big or to small slope should be ignored. 
