@@ -67,9 +67,9 @@ First Result | End Result
 
 ### 2. Identify potential shortcomings with your current pipeline
 
-| Video 1                    | Video 2                       |
+| Finding Lines - white               | Finding Lines - yellow                      |
 |---------------------------|---------------------------|
-[![E](https://img.youtube.com/vi/senH6s-iNyQ/0.jpg)](https://youtu.be/koieTY2RmhM "Finding Lines - white") | [![E](https://img.youtube.com/vi/WAd0HpdFpTI/0.jpg)](https://youtu.be/WAd0HpdFpTI "Finding Lines - yellow")|
+[![E](https://img.youtube.com/vi/koieTY2RmhM/0.jpg)](https://youtu.be/koieTY2RmhM "Finding Lines - white") | [![E](https://img.youtube.com/vi/WAd0HpdFpTI/0.jpg)](https://youtu.be/WAd0HpdFpTI "Finding Lines - yellow")|
 
 * The pipline produces a bit nervous lines (see video). One reason is the way of creating these two lines. All segments do have the same influence. Long segments the same than short segments.
 * The result of the optional film ist not verry good. There are to many "wrong" results after the houghtransformation.
